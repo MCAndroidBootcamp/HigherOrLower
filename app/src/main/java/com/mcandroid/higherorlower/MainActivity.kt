@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         var max = 10
         randomNum = random.nextInt(max + 1 - min) + min
 
-        toast(randomNum)
+        //toast(randomNum)
         return randomNum
     }
 
